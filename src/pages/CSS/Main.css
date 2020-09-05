@@ -1,0 +1,28 @@
+.MainColumn {
+    max-height: calc(100vh - 120px);
+    overflow: scroll;
+}
+
+.MainContent {
+    max-height: calc(100vh - 120px);
+}
+
+.MainContent Row {
+}
+
+.mainCom {
+    display: flex;
+    flex-direction: row;
+}
+
+.MainPart {
+}
+
+.Follow {
+
+
+}
+
+.MainFollow {
+    margin: 10px;
+}

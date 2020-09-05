@@ -1,0 +1,22 @@
+.NavBar {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.NavBarInput {
+    max-width: 890px;
+}
+
+.NavBarIcon {
+    position: absolute;
+    right: 50px;
+}
+
+.Footer {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}

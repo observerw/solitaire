@@ -1,0 +1,77 @@
+.Read {
+    height: 500px;
+}
+
+.ReadSidebarNode {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.ReadContent {
+    background-color: white;
+    font-size: 17px;
+    margin: 0 10px;
+    padding: 15px 25px;
+    white-space: pre-line;
+    min-height: 600px;
+}
+
+.ReadContent h1 {
+    font-size: 50px;
+}
+
+.ReadContentBtn {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.ReadAuthor {
+    background-color: white;
+    text-align: center;
+    min-height: 600px;
+    overflow: auto;
+    padding: 30px;
+}
+
+.ReadImage {
+    width: 150px;
+    border: 2px solid gray;
+    border-radius: 100px;
+}
+
+.ReadAuthor h1 {
+    font-size: 40px;
+}
+
+.ReadAuthor p {
+    color: gray;
+}
+
+.ReadAuthor span {
+    font-size: 20px;
+}
+
+.ReadNext {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+
+.NextNode {
+    background-color: white;
+    margin: 30px 5px;
+    min-width: 300px;
+}
+
+.NextNodeList {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
+/*.NextNodeList::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
+

@@ -1,0 +1,52 @@
+.Tree {
+    height: 1000px;
+}
+
+.TreeContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.TreeNow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.TreeChild {
+    margin: 0 10px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.TreeChildren {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: scroll;
+
+}
+
+.TreeCombine {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.TreeCombine img {
+    width: 110px;
+}
+
+.TreeCombineNode {
+    margin: 0 10px 10px;
+    width: 300px;
+    height: 100%;
+}
+
+.TreeCombineAuthor {
+    width: 200px;
+    height: 100%;
+}

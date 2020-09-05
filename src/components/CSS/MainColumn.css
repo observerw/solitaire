@@ -1,0 +1,22 @@
+.MainColumn {
+    margin: 20px 15px;
+    background-color: white;
+    min-height: calc(100vh - 120px);
+}
+
+.MainColumn::-webkit-scrollbar{
+    display: none;
+}
+
+.MainColumnTitle {
+    font-size: 60px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.MainColumnContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
